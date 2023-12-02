@@ -15,7 +15,7 @@ from sklearn.model_selection import StratifiedKFold
 years = [2022, 2021, 2020]
 
 # Number of folds
-n_folds = 5  # You can adjust this
+n_folds = 3  # You can adjust this
 # Initialize StratifiedKFold
 skf = StratifiedKFold(n_splits=n_folds, shuffle=True, random_state=42)
 
